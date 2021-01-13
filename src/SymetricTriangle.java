@@ -4,15 +4,15 @@ public class SymetricTriangle {
         int f = 1; // liczba gwiazdek w pierwszym i kolejnych wierszach
         int w = 0; // zmienna do wielokrotnego wywoływania pętli wewnętrznej "*"
         int x = 0;
-        int n = 25; // liczba gwiazdek w ostatnim wierszu
+        int n = 11; // liczba gwiazdek w ostatnim wierszu
         int z = 0; // zmienna do wielokrotnego powtarzania pętli zewnętrznej
         int s = ((n - 1) / 2);
         int d = 0; // zmienna do wielokrotnego wywoływania pętli wewnętrznej " "
 
-        while (z < s) {
-            while (d < s) {
+        while (z <= s) {
+            while (d <= s) {
                 w = w;
-                while (w < s) {
+                while (w <= s) {
                     System.out.print(" ");
                     w++;
                 }
